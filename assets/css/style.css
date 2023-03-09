@@ -9,7 +9,7 @@ body {
 
 /*title and navigation menu*/
 header {
-    display:flex;
+    display: flex;
     align-items: baseline;
 
 }
@@ -19,19 +19,55 @@ header {
     text-transform: capitalize;
     text-align: left;
     margin-left: 20px;
-    font-size:140%;
+    font-size: 140%;
 }
 
 .navigation {
-    margin-left:auto;
+    font-weight: 600;
+    margin-left: auto;
     text-transform: uppercase;
 }
+
 .navigation ul {
     list-style: none;
 }
+
 .navigation li {
-    display:inline-block;
+    display: inline-block;
     font-size: 90%;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+/* introduction text to bookclub and image */
+.about {
+    border: green solid 5px;
+    margin-bottom: 5px;
+    padding: 1px;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#bookclub {
+    border: solid red 5px;
+    text-align: center;
+}
+
+.text-intro {
+    border: solid violet 5px;
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
+
+}
+
+.intro img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
 }
