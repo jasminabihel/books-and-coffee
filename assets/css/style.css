@@ -3,14 +3,15 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color: white;
-    color: rgb(15, 11, 11);
+    background-color: rgb(190, 221, 247)
+    color:black;
 }
 
 /*title and navigation menu*/
 header {
     display: flex;
     align-items: baseline;
+    border-bottom: solid 3px rgb(103, 103, 133);
 
 }
 
@@ -59,7 +60,7 @@ header {
 .text-intro {
     text-align: center;
     margin: auto;
-    font-size: 120%;
+    font-size: 110%;
 
 }
 
@@ -87,28 +88,36 @@ header {
     background-color: aliceblue;
     margin-left: 20px;
     text-align: center;
+    padding: 2px;
 }
 
 /* footer */
 footer {
-    text-align: left;
-    border: solid black 3px;
-    height: 150px;
+    background-color: rgb(128, 128, 157);
+    height: auto;
+    margin-top: 10px;
 }
-
 .links {
-    border: solid violet 4px;
-    display: inline-block;
+    display:flex;
+    height:auto;
+    justify-content: center;
 }
-
-.links {
-    display: inline;
+.links h3 {
     text-align: center;
+    padding:5px;
+    font-size: 120%;
+    color: black;
 }
-
+.icons {
+    display:flex;
+    text-align: center;
+    align-items: center;
+    padding:5px;
+}
 .links i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 10px;
+    color: black;
 }
