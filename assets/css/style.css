@@ -121,3 +121,34 @@ footer {
     margin-left: 10px;
     color: black;
 }
+/* reading list page styling */
+.books {
+    margin: 10px 30px 10px 30px;
+    padding: 1px 10px 20px 5px;
+    display:block;
+    white-space: normal;
+    text-align: center;
+}
+.books ul{
+    list-style: none;
+}
+#readinglist{
+    display:inline-block;
+    text-align: center;  
+}
+.books li {
+    border:#496377 solid 2px;
+    margin-left: 2px;
+    margin-bottom: 3px;
+}
+.books img {
+    width: 200px;
+    height: 300px;
+    display:inline-block;
+}
+.books p {
+    text-align: center;
+    font-weight: 600;
+    color:#4e535e;
+    text-decoration: underline;
+}
