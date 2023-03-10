@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color: rgb(250, 250, 250);
+    background-color: #FEFDFC;
     color: rgb(58, 45, 45);
 }
 
@@ -41,7 +41,6 @@ header {
 
 /* introduction text to bookclub and image */
 .about {
-    border: green solid 5px;
     margin-bottom: 5px;
     padding: 1px;
 }
@@ -54,7 +53,6 @@ header {
 }
 
 #bookclub {
-    border: solid red 5px;
     text-align: center;
 }
 
