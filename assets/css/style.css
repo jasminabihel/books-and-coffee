@@ -3,8 +3,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color: rgb(216, 236, 252);
-    color: black;
+    background-color:#DBE2EF;
+    color: #112D4E;
     margin: 10px;
 }
 
@@ -173,4 +173,55 @@ footer {
     font-weight: 600;
     color: #4e535e;
     text-decoration: underline;
+}
+ /*Sign Up Form */
+.signup {
+    text-align: center;
+    font-size: 120%;
+    color: #DBE2EF;
+    background-color: #4a79b2;
+    padding: 5px 10px;
+}
+
+.signup h2 {
+    color: #DBE2EF;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    padding: 3px 5px 4px 5px;
+    font-size: 90%;
+    text-transform: uppercase;
+    color: #112D4E;
+}
+ /*meeting and map*/
+ .meeting {
+    background-color: #f2eeee;
+    margin-bottom: 20px;
+    padding: 10px 5px 10px 5px;
+    display: flex;
+}
+
+.meeting h2 {
+    text-align: center;
+}
+
+.meeting p {
+    font-weight: 500;
+    text-align: left;
+}
+
+#map {
+    border: solid white 3px;
+    margin-left: auto;
+    width: 50%;
 }
