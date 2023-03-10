@@ -3,8 +3,9 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color: rgb(190, 221, 247);
-    color:black;
+    background-color: rgb(216, 236, 252);
+    color: black;
+    margin: 10px;
 }
 
 /*title and navigation menu*/
@@ -79,6 +80,7 @@ header {
 .w3-container {
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .w3-card {
@@ -93,27 +95,30 @@ header {
 
 /* footer */
 footer {
-    background-color: rgb(128, 128, 157);
-    height: auto;
-    margin-top: 10px;
+    margin-top: 10px 0px 10px 0px;
+    border: solid 3px rgb(103, 103, 133);
 }
+
 .links {
-    display:flex;
-    height:auto;
+    display: flex;
+    height: auto;
     justify-content: center;
 }
+
 .links h3 {
     text-align: center;
-    padding:5px;
+    padding: 5px;
     font-size: 120%;
     color: black;
 }
+
 .icons {
-    display:flex;
+    display: flex;
     text-align: center;
     align-items: center;
-    padding:5px;
+    padding: 5px;
 }
+
 .links i {
     font-weight: 600;
     font-size: 150%;
@@ -121,34 +126,51 @@ footer {
     margin-left: 10px;
     color: black;
 }
+
 /* reading list page styling */
-.books {
+.read {
+    text-align: center;
     margin: 10px 30px 10px 30px;
     padding: 1px 10px 20px 5px;
-    display:block;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 110%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.books {
+    display: block;
     white-space: normal;
     text-align: center;
 }
-.books ul{
+
+.books ul {
     list-style: none;
 }
-#readinglist{
-    display:inline-block;
-    text-align: center;  
+
+.readinglist {
+    display: inline-block;
+    text-align: center;
 }
+
 .books li {
-    border:#496377 solid 2px;
+    border: #496377 solid 2px;
     margin-left: 2px;
     margin-bottom: 3px;
 }
+
 .books img {
     width: 200px;
     height: 300px;
-    display:inline-block;
+    display: inline-block;
 }
+
 .books p {
     text-align: center;
     font-weight: 600;
-    color:#4e535e;
+    color: #4e535e;
     text-decoration: underline;
 }
