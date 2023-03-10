@@ -77,20 +77,20 @@ header {
     text-shadow: #FFECD9;
 }
 
-.w3-container {
+.container {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.w3-card {
+.card {
     box-shadow: -1px -1px 10px 4px rgb(0 0 0 / 70%);
     transition: 0.3s;
     border-radius: 6px;
     background-color: aliceblue;
-    margin-left: 20px;
-    text-align: center;
-    padding: 2px;
+    margin-left: 30px;
+    text-align: left;
+    padding: 5px;
 }
 
 /* footer */
