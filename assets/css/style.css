@@ -3,8 +3,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color: #FEFDFC;
-    color: rgb(58, 45, 45);
+    background-color: white;
+    color: rgb(15, 11, 11);
 }
 
 /*title and navigation menu*/
@@ -57,7 +57,6 @@ header {
 }
 
 .text-intro {
-    border: solid violet 5px;
     text-align: center;
     margin: auto;
     font-size: 120%;
@@ -85,9 +84,31 @@ header {
     box-shadow: -1px -1px 10px 4px rgb(0 0 0 / 70%);
     transition: 0.3s;
     border-radius: 6px;
-    /* width: 20%; */
-    /* height: 20%; */
     background-color: aliceblue;
     margin-left: 20px;
     text-align: center;
+}
+
+/* footer */
+footer {
+    text-align: left;
+    border: solid black 3px;
+    height: 150px;
+}
+
+.links {
+    border: solid violet 4px;
+    display: inline-block;
+}
+
+.links {
+    display: inline;
+    text-align: center;
+}
+
+.links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
