@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color: #FFECD9;
+    background-color: rgb(250, 250, 250);
     color: rgb(58, 45, 45);
 }
 
@@ -62,7 +62,7 @@ header {
     border: solid violet 5px;
     text-align: center;
     margin: auto;
-    font-size: 100%;
+    font-size: 120%;
 
 }
 
@@ -70,4 +70,26 @@ header {
     width: 50%;
     height: 50%;
     margin: auto;
+}
+
+/* Testimonials section in first page */
+.testimonials {
+    text-align: center;
+    text-shadow: #FFECD9;
+}
+
+.w3-container {
+    display: flex;
+    align-items: center;
+}
+
+.w3-card {
+    box-shadow: -1px -1px 10px 4px rgb(0 0 0 / 70%);
+    transition: 0.3s;
+    border-radius: 6px;
+    /* width: 20%; */
+    /* height: 20%; */
+    background-color: aliceblue;
+    margin-left: 20px;
+    text-align: center;
 }
