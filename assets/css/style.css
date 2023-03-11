@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color:#DBE2EF;
+    background-color:white;
     color: #112D4E;
     margin: 10px;
 }
@@ -13,6 +13,7 @@ header {
     display: flex;
     align-items: baseline;
     border-bottom: solid 3px rgb(103, 103, 133);
+    background-color:#f2eeee;
 
 }
 
@@ -31,21 +32,26 @@ header {
 }
 
 .navigation ul {
-    list-style: none;
+    list-style-type: none;
 }
-
+.navigation a {
+    text-decoration: none;
+}
 .navigation li {
     display: inline-block;
     font-size: 90%;
     margin-left: 10px;
     margin-right: 10px;
+    color: #2d3744;
+}
+.active {
+    color: #4a79b2;
 }
 
 /* introduction text to bookclub and image */
 .about {
     margin-bottom: 5px;
     padding: 1px;
-    border:blueviolet solid 5px;
     background-color: white;
 }
 
@@ -63,16 +69,24 @@ header {
     margin: right;
     margin-left: 50px;
 }
-
-.text-intro {
-    text-align: center;
-    margin: auto;
+.bookclub-text {
+    text-align: left;
+    font-weight: 500;
     font-size: 100%;
+    margin:auto;
 }
 
 .intro img {
     width: 80%;
     height: 80%;
+    margin:none;
+}
+
+.text-intro {
+    text-align: center;
+    margin: auto;
+    font-size: 100%;
+    padding-bottom: 20px;
 }
 
 /* Testimonials section in first page */
@@ -101,6 +115,8 @@ header {
 footer {
     margin-top: 10px 0px 10px 0px;
     border: solid 3px rgb(103, 103, 133);
+    color:#112D4E;
+    background-color:#DBE2EF;
 }
 
 .links {
@@ -113,7 +129,7 @@ footer {
     text-align: center;
     padding: 5px;
     font-size: 120%;
-    color: black;
+    color: #0a1222;
 }
 
 .icons {
@@ -128,7 +144,7 @@ footer {
     font-size: 150%;
     text-align: center;
     margin-left: 10px;
-    color: black;
+    color: #0a1222;
 }
 
 /* reading list page styling */
@@ -175,7 +191,7 @@ footer {
 .books p {
     text-align: center;
     font-weight: 600;
-    color: #4e535e;
+    color: #20232a;
     text-decoration: underline;
 }
  /*Sign Up Form */
