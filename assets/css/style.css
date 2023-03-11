@@ -50,7 +50,7 @@ header {
     color: #112D4E;
 }
 .active {
-    color: #2d71c4;
+    color: #6d86a1;
 }
 
 /* introduction text to bookclub and image */
@@ -91,13 +91,13 @@ header {
     text-align: center;
     margin: auto;
     font-size: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: 400;
 }
 
 /* Testimonials section in first page */
 .testimonials {
     text-align: center;
-    text-shadow: #FFECD9;
 }
 
 .container {
@@ -256,7 +256,7 @@ input[type=submit] {
  /* screens width 1200px and smaller */
  @media screen and (max-width: 1200px) {
     header {
-        display: inline-block;
+        display: block;
     }
 
     .intro {
@@ -270,6 +270,15 @@ input[type=submit] {
 
     #title {
         text-align: center;
+    }
+    .container {
+        display: block;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .card {
+        margin-bottom: 10px;
     }
 
     .signup {
@@ -294,44 +303,57 @@ input[type=submit] {
         margin-right: 100px;
     }
 }
-/* screens width 1200px and smaller */
+/* screens width 600px and smaller */
 @media screen and (max-width: 600px) {
-    header {
-        display: inline-block;
-    }
-
-    .intro {
-        display: block;
-    }
-
-    .intro img {
-        width: 100%;
-        height: 100%;
-    }
-
-    #title {
-        text-align: center;
-    }
-
-    .signup {
-        text-align: left;
-        margin: auto;
-    }
-
-    .navigation {
-        text-align: center;
-    }
-
-    .meeting {
-        display: block;
-    }
-
-    #map {
-        margin: auto;
-        width: 100%;
-    }
-
-    input[type="text"] {
-        margin-right: 100px;
-    }
+header {
+    display: block;
 }
+#bookclub {
+    text-align: center;
+    color:#112D4E;
+}
+.intro {
+    display: block;
+}
+
+.intro img {
+    width: 100%;
+    height: 100%;
+}
+
+#title {
+    text-align: center;
+}
+.container {
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.signup {
+    text-align: left;
+    margin: auto;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.meeting {
+    display: block;
+}
+
+#map {
+    margin: auto;
+    width: 100%;
+}
+
+input[type="text"] {
+    margin-right: 100px;
+}
+}
+    
