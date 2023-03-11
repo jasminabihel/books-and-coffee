@@ -259,6 +259,10 @@ input[type=submit] {
         display: block;
     }
 
+    #bookclub {
+        text-align: center;
+        color:#112D4E;
+    }
     .intro {
         display: block;
     }
