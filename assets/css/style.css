@@ -23,9 +23,11 @@ header {
     text-align: left;
     margin-left: 20px;
     font-size: 140%;
+    color: #112D4E;
 }
 
 .navigation {
+    color: #112D4E;
     font-weight: 600;
     margin-left: auto;
     text-transform: uppercase;
@@ -42,7 +44,6 @@ header {
     font-size: 90%;
     margin-left: 10px;
     margin-right: 10px;
-    color: #2d3744;
 }
 .active {
     color: #4a79b2;
@@ -115,7 +116,7 @@ header {
 footer {
     margin-top: 10px 0px 10px 0px;
     border: solid 3px rgb(103, 103, 133);
-    color:#112D4E;
+    color: #1d4069;
     background-color:#DBE2EF;
 }
 
@@ -129,7 +130,7 @@ footer {
     text-align: center;
     padding: 5px;
     font-size: 120%;
-    color: #0a1222;
+    color: #112D4E;
 }
 
 .icons {
@@ -137,6 +138,7 @@ footer {
     text-align: center;
     align-items: center;
     padding: 5px;
+    color: #112D4E;
 }
 
 .links i {
@@ -144,7 +146,7 @@ footer {
     font-size: 150%;
     text-align: center;
     margin-left: 10px;
-    color: #0a1222;
+    color:#112D4E;
 }
 
 /* reading list page styling */
