@@ -25,7 +25,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
  * Here we have social media links with font awesome icons. 
 
  ## Credits ##
- <a href="https://www.freepik.com/free-vector/book-club-concept-with-people-read-books_29222683.htm#query=book%20illustration%20with%20people&position=4&from_view=search&track=ais">Image by upklyak</a> on Freepik<a href="https://www.freepik.com/free-vector/book-club-concept-with-people-read-books_29222683.htm#query=book%20illustration%20with%20people&position=4&from_view=search&track=ais">Image by upklyak</a> on Freepik
+ <a href="https://www.freepik.com/free-vector/book-club-concept-with-people-read-books_29222683.htm#query=book%20illustration%20with%20people&position=4&from_view=search&track=ais">Image by upklyak</a> on Freepik
 
  <a href="https://www.freepik.com/free-vector/focused-tiny-people-reading-books_8609147.htm#page=3&query=open%20book%20illustration%20with%20people&position=2&from_view=search&track=ais">Image by pch.vector</a> on Freepik
 
