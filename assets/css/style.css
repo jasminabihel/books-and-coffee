@@ -247,3 +247,87 @@ input[type=submit] {
     margin-left: auto;
     width: 50%;
 }
+
+/*media queries*/
+ /* screens width 1200px and smaller */
+ @media screen and (max-width: 1200px) {
+    header {
+        display: inline-block;
+    }
+
+    .intro {
+        display: block;
+    }
+
+    .intro img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .signup {
+        text-align: left;
+        margin: auto;
+    }
+
+    .navigation {
+        text-align: center;
+    }
+
+    .meeting {
+        display: block;
+    }
+
+    #map {
+        margin: auto;
+        width: 100%;
+    }
+
+    input[type="text"] {
+        margin-right: 100px;
+    }
+}
+/* screens width 1200px and smaller */
+@media screen and (max-width: 600px) {
+    header {
+        display: inline-block;
+    }
+
+    .intro {
+        display: block;
+    }
+
+    .intro img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .signup {
+        text-align: left;
+        margin: auto;
+    }
+
+    .navigation {
+        text-align: center;
+    }
+
+    .meeting {
+        display: block;
+    }
+
+    #map {
+        margin: auto;
+        width: 100%;
+    }
+
+    input[type="text"] {
+        margin-right: 100px;
+    }
+}
