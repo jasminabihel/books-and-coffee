@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: medium;
-    background-color:white;
+    background-color: white;
     color: #112D4E;
     margin: 10px;
 }
@@ -13,7 +13,7 @@ header {
     display: flex;
     align-items: baseline;
     border-bottom: solid 3px rgb(103, 103, 133);
-    background-color:#f2eeee;
+    background-color: #f2eeee;
 
 }
 
@@ -36,19 +36,23 @@ header {
 .navigation ul {
     list-style-type: none;
 }
+
 .navigation a {
     text-decoration: none;
 }
+
 .navigation li {
     display: inline-block;
     font-size: 90%;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .navigation li a {
     font-weight: 600;
     color: #112D4E;
 }
+
 .active {
     color: #6d86a1;
 }
@@ -72,19 +76,20 @@ header {
     text-align: center;
     position: absolute;
     margin-left: 50px;
-    color:#112D4E;
+    color: #112D4E;
 }
+
 .bookclub-text {
     text-align: left;
     font-weight: 500;
     font-size: 100%;
-    margin:auto;
+    margin: auto;
 }
 
 .intro img {
     width: 80%;
     height: 80%;
-    margin:none;
+    margin: none;
 }
 
 .text-intro {
@@ -121,7 +126,7 @@ footer {
     margin-top: 10px 0px 10px 0px;
     border: solid 3px rgb(103, 103, 133);
     color: #1d4069;
-    background-color:#DBE2EF;
+    background-color: #DBE2EF;
 }
 
 .links {
@@ -150,7 +155,7 @@ footer {
     font-size: 150%;
     text-align: center;
     margin-left: 10px;
-    color:#112D4E;
+    color: #112D4E;
 }
 
 /* reading list page styling */
@@ -200,7 +205,8 @@ footer {
     color: #20232a;
     text-decoration: underline;
 }
- /*Sign Up Form */
+
+/*Sign Up Form */
 .signup {
     text-align: center;
     font-size: 120%;
@@ -229,8 +235,9 @@ input[type=submit] {
     text-transform: uppercase;
     color: #112D4E;
 }
- /*meeting and map*/
- .meeting {
+
+/*meeting and map*/
+.meeting {
     background-color: #f2eeee;
     margin-bottom: 20px;
     padding: 10px 5px 10px 5px;
@@ -253,16 +260,19 @@ input[type=submit] {
 }
 
 /*media queries*/
- /* screens width 1200px and smaller */
- @media screen and (max-width: 1200px) {
+/* screens width 1200px and smaller */
+@media screen and (max-width: 1200px) {
     header {
         display: block;
     }
 
     #bookclub {
         text-align: center;
-        color:#112D4E;
+        position: relative;
+        margin-left: 0px;
+        color: #112D4E;
     }
+
     .intro {
         display: block;
     }
@@ -275,6 +285,7 @@ input[type=submit] {
     #title {
         text-align: center;
     }
+
     .container {
         display: block;
         margin-right: 20px;
@@ -306,58 +317,81 @@ input[type=submit] {
     input[type="text"] {
         margin-right: 100px;
     }
-}
-/* screens width 600px and smaller */
-@media screen and (max-width: 600px) {
-header {
-    display: block;
-}
-#bookclub {
-    text-align: center;
-    color:#112D4E;
-}
-.intro {
-    display: block;
+
+    .links h3 {
+        display: none;
+        visibility: hidden;
+        text-align: center;
+        padding: 5px;
+        font-size: 120%;
+        color: #112D4E;
+    }
 }
 
-.intro img {
-    width: 100%;
-    height: 100%;
-}
+    /* screens width 600px and smaller */
+    @media screen and (max-width: 600px) {
+        header {
+            display: block;
+        }
 
-#title {
-    text-align: center;
-}
-.container {
-    display: block;
-    margin-right: 20px;
-    margin-left: 20px;
-}
+        #bookclub {
+            text-align: center;
+            position: relative;
+            margin-left: 0px;
+            color: #112D4E;
+        }
 
-.card {
-    margin-bottom: 10px;
-}
+        .intro {
+            display: block;
+        }
 
-.signup {
-    text-align: left;
-    margin: auto;
-}
+        .intro img {
+            width: 100%;
+            height: 100%;
+        }
 
-.navigation {
-    text-align: center;
-}
+        #title {
+            text-align: center;
+        }
 
-.meeting {
-    display: block;
-}
+        .container {
+            display: block;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
 
-#map {
-    margin: auto;
-    width: 100%;
-}
+        .card {
+            margin-bottom: 10px;
+        }
 
-input[type="text"] {
-    margin-right: 100px;
-}
-}
-    
+        .signup {
+            text-align: left;
+            margin: auto;
+        }
+
+        .navigation {
+            text-align: center;
+        }
+
+        .meeting {
+            display: block;
+        }
+
+        #map {
+            margin: auto;
+            width: 100%;
+        }
+
+        input[type="text"] {
+            margin-right: 100px;
+        }
+
+        .links h3 {
+            display: none;
+            visibility: hidden;
+            text-align: center;
+            padding: 5px;
+            font-size: 120%;
+            color: #112D4E;
+        }
+    }
