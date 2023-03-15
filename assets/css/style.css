@@ -204,7 +204,7 @@ footer {
     text-decoration: underline;
 }
 
-/*Sign Up Form */
+/*Contact */
 .signup {
     text-align: center;
     font-size: 120%;
@@ -234,7 +234,6 @@ input[type=submit] {
     color: #112D4E;
 }
 
-/*meeting and map*/
 .meeting {
     background-color: #f2eeee;
     margin-bottom: 20px;
