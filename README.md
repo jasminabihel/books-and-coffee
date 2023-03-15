@@ -31,3 +31,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
  <a href="https://www.freepik.com/free-vector/book-club-concept-with-people-read-books_29222683.htm#query=book%20illustration%20with%20people&position=4&from_view=search&track=ais">Image by upklyak</a> on Freepik
 
  <a href="https://www.freepik.com/free-vector/focused-tiny-people-reading-books_8609147.htm#page=3&query=open%20book%20illustration%20with%20people&position=2&from_view=search&track=ais">Image by pch.vector</a> on Freepik
+
+
+<a href="https://codeconvey.com/simple-css-sticky-footer/"> for footer
+<a href ="https://www.w3schools.com/w3css/w3css_cards.asp"> for container
