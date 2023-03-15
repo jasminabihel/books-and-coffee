@@ -11,7 +11,7 @@ body {
 header {
     display: flex;
     align-items: baseline;
-    border-bottom: solid 3px rgb(103, 103, 133);
+    border-bottom: solid 3px #676785;
     background-color: #f2eeee;
 
 }
