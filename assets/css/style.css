@@ -6,6 +6,7 @@ body {
     background-color: #FFFFFF;
     color: #112D4E;
     margin:auto;
+    overflow:hidden;
     
 }
 
@@ -135,6 +136,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .links h3 {
