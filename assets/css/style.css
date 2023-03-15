@@ -8,7 +8,6 @@ body {
     margin: 10px;
 }
 
-/*title and navigation menu*/
 header {
     display: flex;
     align-items: baseline;
@@ -258,7 +257,14 @@ input[type=submit] {
     width: 50%;
 }
 
-/*media queries*/
+/*styling for header in confirmation.html*/
+.response {
+    font-size: 120%;
+    text-align: center;
+    font-weight: 600;
+    color: #1d4069;
+}
+
 /* screens width 1200px and smaller */
 @media screen and (max-width: 1200px) {
     header {
@@ -327,70 +333,70 @@ input[type=submit] {
     }
 }
 
-    /* screens width 600px and smaller */
-    @media screen and (max-width: 600px) {
-        header {
-            display: block;
-        }
-
-        #bookclub {
-            text-align: center;
-            position: relative;
-            margin-left: 0px;
-            color: #112D4E;
-        }
-
-        .intro {
-            display: block;
-        }
-
-        .intro img {
-            width: 100%;
-            height: 100%;
-        }
-
-        #title {
-            text-align: center;
-        }
-
-        .container {
-            display: block;
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-
-        .card {
-            margin-bottom: 10px;
-        }
-
-        .signup {
-            text-align: left;
-            margin: auto;
-        }
-
-        .navigation {
-            text-align: center;
-        }
-
-        .meeting {
-            display: block;
-        }
-
-        #map {
-            margin: auto;
-            width: 100%;
-        }
-
-        input[type="text"] {
-            margin-right: 100px;
-        }
-
-        .links h3 {
-            display: none;
-            visibility: hidden;
-            text-align: center;
-            padding: 5px;
-            font-size: 120%;
-            color: #112D4E;
-        }
+/* screens width 600px and smaller */
+@media screen and (max-width: 600px) {
+    header {
+        display: block;
     }
+
+    #bookclub {
+        text-align: center;
+        position: relative;
+        margin-left: 0px;
+        color: #112D4E;
+    }
+
+    .intro {
+        display: block;
+    }
+
+    .intro img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .container {
+        display: block;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+
+    .signup {
+        text-align: left;
+        margin: auto;
+    }
+
+    .navigation {
+        text-align: center;
+    }
+
+    .meeting {
+        display: block;
+    }
+
+    #map {
+        margin: auto;
+        width: 100%;
+    }
+
+    input[type="text"] {
+        margin-right: 100px;
+    }
+
+    .links h3 {
+        display: none;
+        visibility: hidden;
+        text-align: center;
+        padding: 5px;
+        font-size: 120%;
+        color: #112D4E;
+    }
+}
