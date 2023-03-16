@@ -22,16 +22,24 @@ header {
     border-bottom: solid 3px #676785;
     background-color: #f2eeee;
     width: 100%;
-
 }
 
 #title {
     padding: 4px 2px 2px 2px;
     text-transform: capitalize;
     text-align: left;
-    margin-left: 20px;
-    font-size: 140%;
+    margin-left: 2%;
     color: #112D4E;
+}
+
+#title-text {
+    font-size: 80%;
+    display: inline-block;
+}
+
+#title-intro {
+    font-size: 80%;
+    margin-left: auto;
 }
 
 .navigation {
@@ -346,9 +354,11 @@ input[type=submit] {
     footer {
         bottom: 0%;
     }
+
     .links {
         position: relative;
     }
+
     .links h3 {
         display: none;
         visibility: hidden;
@@ -359,7 +369,8 @@ input[type=submit] {
     }
 }
 
-/* screens width 600px and smaller */{
+/* screens width 600px and smaller */
+    {
     header {
         display: block;
     }
@@ -419,6 +430,7 @@ input[type=submit] {
     footer {
         bottom: 0%;
     }
+
     .links {
         position: relative;
     }
