@@ -242,7 +242,7 @@ input[type=submit] {
     margin-bottom: 20px;
     padding: 1%;
     display: flex;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 .meeting h2 {
