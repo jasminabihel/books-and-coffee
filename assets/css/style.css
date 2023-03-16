@@ -107,13 +107,6 @@ header {
     height: 80%;
 }
 
-.text-intro {
-    text-align: center;
-    font-size: 110%;
-    font-weight: 600;
-    color: #0F0F0D;
-}
-
 /* Testimonials section in first page */
 .testimonials {
     text-align: center;
@@ -179,7 +172,7 @@ footer {
 /* reading list page styling */
 .read {
     text-align: center;
-    margin: 10px 30px 10px 30px;
+    margin: 10px;
     padding: 1px 10px 20px 5px;
 }
 
@@ -224,6 +217,13 @@ footer {
     text-decoration: underline;
 }
 
+.text-intro {
+    text-align: center;
+    font-size: 110%;
+    font-weight: 600;
+    color: #0F0F0D;
+}
+
 /*Contact */
 .signup {
     text-align: center;
@@ -257,7 +257,7 @@ input[type=submit] {
 .meeting {
     background-color: #f2eeee;
     margin-bottom: 20px;
-    padding: 1%;
+    padding: 5px 10px;
     display: flex;
     font-size: 100%;
 }
@@ -300,6 +300,15 @@ input[type=submit] {
         display: block;
     }
 
+    #title-text {
+        font-style: italic;
+    }
+
+    .bookclub-text {
+        text-align: center;
+        margin: 3%;
+    }
+
     #bookclub {
         text-align: center;
         position: relative;
@@ -327,6 +336,10 @@ input[type=submit] {
 
     .card {
         margin-bottom: 10px;
+    }
+
+    .books {
+        margin-right: 10%;
     }
 
     .signup {
@@ -367,12 +380,26 @@ input[type=submit] {
         font-size: 120%;
         color: #112D4E;
     }
+
+    .text-intro {
+        margin: 3%;
+    }
 }
 
 /* screens width 600px and smaller */
-    {
+@media screen and (max-width: 600px) {
+
     header {
         display: block;
+    }
+
+    #title-text {
+        display: none;
+    }
+
+    .bookclub-text {
+        text-align: center;
+        margin: 3%;
     }
 
     #bookclub {
@@ -405,6 +432,10 @@ input[type=submit] {
         margin-bottom: 10px;
     }
 
+    .books {
+        margin-right: 10%;
+    }
+
     .signup {
         text-align: left;
         margin: auto;
@@ -442,5 +473,9 @@ input[type=submit] {
         padding: 5px;
         font-size: 120%;
         color: #112D4E;
+    }
+
+    .text-intro {
+        margin: 3%;
     }
 }
