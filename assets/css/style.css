@@ -242,8 +242,9 @@ input[type=submit] {
 .meeting {
     background-color: #f2eeee;
     margin-bottom: 20px;
-    padding: 10px 5px 10px 5px;
+    padding: 1%;
     display: flex;
+    font-size: 120%;
 }
 
 .meeting h2 {
