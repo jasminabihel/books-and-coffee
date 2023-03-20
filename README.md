@@ -4,11 +4,11 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 ![alttext](/assets/images/amiresonsive.png)
 
-## **Features** 
+## 1 **Features** 
 
-### **Existing features**
-#### *Header*
- ##### Navigation bar
+### _**Existing features**
+#### _*Header*
+ ##### _Navigation bar
  * The navigation bar is set on the top of the page next to the title for the book club.
  * The title of the book club is on the left and the links to the other pages are to the right.
  * The navigation bar is nested in the header with "About us", "Gallery" and "Contact".

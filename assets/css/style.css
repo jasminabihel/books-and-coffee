@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 header {
     display: flex;
     align-items: baseline;
@@ -77,7 +78,7 @@ header {
 
 /* introduction text to bookclub and image */
 .about {
-    margin:0 1rem;
+    margin: 0 1rem;
     padding: 1px;
     background-color: #FFFFFF;
 }
@@ -218,13 +219,6 @@ footer {
     text-decoration: underline;
 }
 
-.text-intro {
-    text-align: center;
-    font-size: 110%;
-    font-weight: 600;
-    color: #0F0F0D;
-}
-
 /*Contact */
 .signup {
     text-align: center;
@@ -276,6 +270,13 @@ input[type=submit] {
     border: solid 3px #FFFFFF;
     margin-left: auto;
     width: 50%;
+}
+
+.text-contact {
+    text-align: center;
+    font-size: 110%;
+    font-weight: 600;
+    color: #0F0F0D;
 }
 
 /*styling for header in confirmation.html*/
