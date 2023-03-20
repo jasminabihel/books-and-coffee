@@ -232,17 +232,17 @@ footer {
     color: #DBE2EF;
 }
 
-input[type="text"] {
+.input-text {
     padding: 10px;
     margin-bottom: 20px;
 }
 
-input[type="email"] {
+.input-email{
     padding: 10px;
     margin-bottom: 20px;
 }
 
-input[type=submit] {
+#submit {
     padding: 3px 5px 4px 5px;
     font-size: 90%;
     text-transform: uppercase;
