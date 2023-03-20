@@ -225,6 +225,7 @@ footer {
     color: #DBE2EF;
     background-color: #4a79b2;
     padding: 1%;
+    overflow-wrap: break-word;
 }
 
 .signup h2 {
@@ -342,7 +343,7 @@ footer {
 
     .signup {
         text-align: left;
-        margin: auto;
+        padding-left: 8px;
     }
 
     .navigation {
@@ -358,7 +359,7 @@ footer {
         width: 100%;
     }
 
-    input[type="text"] {
+    .input-text {
         margin-right: 100px;
     }
 
@@ -433,7 +434,7 @@ footer {
 
     .signup {
         text-align: left;
-        margin: auto;
+        padding-left: 8px;
     }
 
     .navigation {
@@ -449,16 +450,12 @@ footer {
         width: 100%;
     }
 
-    input[type="text"] {
+    .input-text {
         margin-right: 100px;
     }
 
     footer {
         bottom: 0%;
-    }
-
-    .links {
-        position: relative;
     }
 
     .links h3 {
@@ -472,5 +469,19 @@ footer {
 
     .text-intro {
         margin: 3%;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .navigation {
+        margin-right: 0;
+    }
+
+    .navigation ul {
+        padding-left: 0;
+    }
+
+    .signup form {
+        width: 200px;
     }
 }
