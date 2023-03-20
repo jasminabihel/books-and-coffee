@@ -191,6 +191,7 @@ footer {
 
 .books ul {
     list-style: none;
+    padding-inline-start: 0;
 }
 
 .readinglist {
@@ -339,10 +340,6 @@ footer {
         margin-bottom: 10px;
     }
 
-    .books {
-        margin-right: 10%;
-    }
-
     .signup {
         text-align: left;
         margin: auto;
@@ -432,10 +429,6 @@ footer {
 
     .card {
         margin-bottom: 10px;
-    }
-
-    .books {
-        margin-right: 10%;
     }
 
     .signup {
