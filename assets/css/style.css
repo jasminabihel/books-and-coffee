@@ -380,8 +380,8 @@ footer {
         color: #112D4E;
     }
 
-    .text-intro {
-        margin: 3%;
+    .text-contact{
+        margin: 1%;
     }
 }
 
@@ -467,12 +467,12 @@ footer {
         color: #112D4E;
     }
 
-    .text-intro {
-        margin: 3%;
+    .text-contact{
+        margin: 1%;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     .navigation {
         margin-right: 0;
     }
