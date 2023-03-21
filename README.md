@@ -77,8 +77,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 ## **Testing** ##
 
-* The page was tested using devtools in Egde and Chrome for all the supported devices. 
-* The page was also tested in Safari for users using Apple. 
+* The page was tested in following browsers: Edge, Chrome, Safari, Firefox. 
 
 ### *Code Validation* ####
 
@@ -92,7 +91,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 ### *Assesibility* ###
 
-* The font-family and the colors that were chosen were tested in devtools Lighthouse to confirm that the colors are assesible and easy to read for all pages. 
+* The font-family and the colors that were chosen were tested in devtools Lighthouse in Edge to confirm that the colors are assesible and easy to read for all pages. 
 
 About us
 
@@ -111,29 +110,29 @@ Contact
 
 ### *Fixed bugs* ###
 
-*  When the webpage was deployed in GitHub several images had broken links. This was the images were deployed to the images folder in format jifi that is not supported by the browser. This was corrected by upploding the images again with the correct format jpg.
+*  When the webpage was deployed in GitHub several images had broken links. This was because the images were deployed to the images folder in format jifi that is not supported by the browser. This was corrected by upploading the images again with the correct format jpg.
 
-* Several images had capital letter in the title and this was also fixed. 
+* Several images had capital letters when deployed. This was fixed.
 
 * Input [type=text], input [type=email] and input[type=submit] was used in CSS to style the sign up    form. This is not recommended and the CSS style for the sign up form is corrected by using class and id for the styling.
 
 ### **Supported screens** ###
 
-* The webpage is responsive and works as espected with Windows and Apple opperating systems. 
-* The webpage is responsive for diffrent viewpoints: desktop, laptop, tablet and mobile. 
+* The webpage is responsive and works as espected in Edge, Chrome, Firefox and Safari. 
+* The webpage is responsive for diffrent viewpoints: desktop, laptop, tablet and mobile.
 
 ## **Deployment**
 * The site was deployed to GitHub pages.
 * The live link can be found here: https://jasminabihel.github.io/books-and-coffee/index.html.
 
 ## **Credits** ##
-* The image in the "about us" page was taken from Freepik. 
+* The image in the "About us" page was taken from Freepik. 
  <a href="https://www.freepik.com/free-vector/book-club-concept-with-people-read-books_29222683.htm#query=book%20illustration%20with%20people&position=4&from_view=search&track=ais">Image by upklyak</a> on Freepik
 
 * The images in the "reading list" page were taken from Goodreads.
 
-* The code for the Social media links in HTML was taken from CI "Love Running project".
+* The code for the "social media links" in HTML in the footer was taken from CI "Love Running project".
 
-* The styling in CSS for the testimonials cards comes from W3 schools cards,<a href="https://www.w3schools.com/w3css/w3css_cards.asp">w3schools</a>
+* The styling in CSS for the testimonials cards comes from W3 schools cards <a href="https://www.w3schools.com/w3css/w3css_cards.asp">w3schools</a>
 
 * The code for the map in HTML was obtained via Google Maps feature "embed a map".
