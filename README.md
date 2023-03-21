@@ -2,7 +2,7 @@
 
 Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is directed to booklovers that want to meet in person and enjoy a cup of coffee and cake. Books&Coffee site has times for weekly meetings to booklovers and a sign up sheet that makes it easier for booklovers to find likeminded individuals.
 
-![alttext](/assets/images/amiresonsive.png)
+![alttext](assets/images/amiresonsive.png)
 
 ## **Features** ##
 
@@ -10,7 +10,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 #### **Header** ####
 
-![alttext](/assets/images/header.png)
+![alttext](assets/images/header.png)
 
  * This includes the title of the book club and it is nested on the top left side of the page and the links to the other pages are to the right. 
  * The navigation bar is nested in the header with links to "About us", "Gallery" and "Contact" so the user can easily navigate between the pages.
@@ -28,7 +28,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
  ####  **Reading List** ####
 
- ![alttext](/assets/images/readinglist.png)
+ ![alttext](assets/images/readinglist.png)
 
  * The "Reading list" page includes a little into text to wake curiosity for the user. 
  * The "Reading list" has pictures of the books that are chosen for the reading list.
@@ -36,7 +36,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
  #### **Contact** ####
 
- ![alttext](/assets/images/contact.png)
+ ![alttext](assets/images/contact.png)
 
  * Here we have the "Sign up" form and times and places for the meeetings.
  * There is a map that shows the address for the meeting place that users can interect with and open in a new tab to easier find the meeting place. 
@@ -44,7 +44,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
  #### **Footer** ####
 
- ![alttext](/assets/images/footer.png)
+ ![alttext](assets/images/footer.png)
 
  * Here we have the social media links for the book club. 
  * The media links have styling with FontAwesome icons. This makes easier for users to conect with the book club on social media. 
@@ -64,7 +64,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
  * This is the intial idea for the webpage.
 
-![Alt text](/assets/images/Bookclub%20project%20Books%20%26%20Coffee.png)
+![Alt text](assets/images/bookclub-project-books-coffee.png)
 
 ## **Testing** 
 
