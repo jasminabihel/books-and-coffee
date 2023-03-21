@@ -81,9 +81,7 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 * No errors were found when the code was tested in official (Jigsaw) validator.
 
-### *Fixed bugs* ###
 
-* 
 
 ### **Supported screens** ###
 
