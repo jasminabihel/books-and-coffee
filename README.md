@@ -81,7 +81,14 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 * No errors were found when the code was tested in official (Jigsaw) validator.
 
+### *Fixed bugs* ###
 
+*  When the webpage was deployed in GitHub, I discoverd that several images had broken links. This was because I have upploded the images to the images folder in format jifi that is not supported by the browser. I corrected this by upploding the images again with the correct format jpg.
+
+* Several images had capital letter in the title and this was also fixed. 
+
+* In CSS, I used input [type=text], input [type=email] and input[type=submit] to style my sign up form. 
+  This is not recommended and I fixed the CSS style for the sign up form by using class and id for the styling.
 
 ### **Supported screens** ###
 
