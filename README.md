@@ -92,4 +92,4 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 * The code for the Social media links was taken from CI "Love Running project".
 
-* The code for the testimonials cards comes from W3 schools cards, https://www.w3schools.com/w3css/w3css_cards.asp
+* The code for the testimonials cards comes from W3 schools cards,<a href="https://www.w3schools.com/w3css/w3css_cards.asp">w3schools</a>
