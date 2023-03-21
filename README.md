@@ -10,15 +10,14 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 #### **Header** ####
 
-![alttext](assets/images/header.png)
-
  * This includes the title of the book club and it is nested on the top left side of the page and the links to the other pages are to the right. 
  * The navigation bar is nested in the header with links to "About us", "Gallery" and "Contact" so the user can easily navigate between the pages.
  * The page that the user is currently on is underlined for better user experience.
 
- #### **About us** ####
+ ![alttext](assets/images/header.png)
 
- ![alttext](assets/images/aboutus.png)
+ 
+ #### **About us** ####
 
  * The "About us" page has a little explanation for the purpose of the book club and testimonials.
  * The "About us" page is divided between two sections.
@@ -26,39 +25,48 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
  * The second section contains testimonials from the members of the book club.
  * This section gives users insight to what other members think of the book club. 
 
- ####  **Reading List** ####
+ ![alttext](assets/images/aboutus.png)
 
- ![alttext](assets/images/readinglist.png)
+
+ ####  **Reading List** ####
 
  * The "Reading list" page includes a little into text to wake curiosity for the user. 
  * The "Reading list" has pictures of the books that are chosen for the reading list.
  * This page gives users insight into the books that are chosen and the intended monthly schedule.
 
- #### **Contact** ####
+ ![alttext](assets/images/readinglist.png)
 
- ![alttext](assets/images/contact.png)
+
+ #### **Contact** ####
 
  * Here we have the "Sign up" form and times and places for the meeetings.
  * There is a map that shows the address for the meeting place that users can interect with and open in a new tab to easier find the meeting place. 
  * When users sign up they get a confirmation message "Thank you for signing up!". 
 
- #### **Footer** ####
+ ![alttext](assets/images/contact.png)
 
- ![alttext](assets/images/footer.png)
+
+ #### **Footer** ####
 
  * Here we have the social media links for the book club. 
  * The media links have styling with FontAwesome icons. This makes easier for users to conect with the book club on social media. 
  * The links open in a new tab to make it easier for users to connect with the book club on social media without leaving the page. 
 
+ ![alttext](assets/images/footer.png)
+
+ 
  ### *Future features* ###
  * The reading list page should be rewriten to allow members to choose books every month. It would make for more engaging experience for the user if they can chose the book from a list.
  * Insert a new page where members can sign in and get special updates only for the community.
 
+
  ## **Typography** ##
  * The font used is "Roboto Light 300" and "Roboto Regular 400".
+
  
  ## **Technology** ##
 * This web page is written with VS code using HTML and CSS.
+
 
  ## **Wireframes** ##
 
@@ -66,7 +74,8 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 ![Alt text](assets/images/bookclub-project-books-coffee.png)
 
-## **Testing** 
+
+## **Testing** ##
 
 * The page was tested using devtools in Egde and Chrome for all the supported devices. 
 * The page was also tested in Safari for users using Apple. 
@@ -81,14 +90,32 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 * No errors were found when the code was tested in official (Jigsaw) validator.
 
+### *Assesibility* ###
+
+* The font-family and the colors that were chosen were tested in devtools Lighthouse to confirm that the colors are assesible and easy to read for all pages. 
+
+About us
+
+![alttext](assets/images/aboutuslighthouse.png)
+
+
+Reading list
+
+![alttext](assets/images/readinglistlighthouse.png)
+
+
+Contact
+
+![alttext](assets/images/contactlighthouse.png)
+
+
 ### *Fixed bugs* ###
 
-*  When the webpage was deployed in GitHub, I discoverd that several images had broken links. This was because I have upploded the images to the images folder in format jifi that is not supported by the browser. I corrected this by upploding the images again with the correct format jpg.
+*  When the webpage was deployed in GitHub several images had broken links. This was the images were deployed to the images folder in format jifi that is not supported by the browser. This was corrected by upploding the images again with the correct format jpg.
 
 * Several images had capital letter in the title and this was also fixed. 
 
-* In CSS, I used input [type=text], input [type=email] and input[type=submit] to style my sign up form. 
-  This is not recommended and I fixed the CSS style for the sign up form by using class and id for the styling.
+* Input [type=text], input [type=email] and input[type=submit] was used in CSS to style the sign up    form. This is not recommended and the CSS style for the sign up form is corrected by using class and id for the styling.
 
 ### **Supported screens** ###
 
