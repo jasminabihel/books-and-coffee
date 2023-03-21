@@ -68,6 +68,9 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 
 ## **Testing** 
 
+* The page was tested using devtools in Egde and Chrome for all the supported devices. 
+* The page was also tested in Safari for users using Apple. 
+
 ### *Code Validation* ####
 
 #### HTML
@@ -83,8 +86,6 @@ Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is 
 * 
 ### **Testing** ###
 
-* The page was tested using devtools in Egde and Chrome for all the supported devices. 
-* The page was also tested in Safari for users using Apple. 
 
 ### **Supported screens** ###
 
