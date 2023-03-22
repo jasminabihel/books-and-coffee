@@ -56,8 +56,12 @@ header {
     list-style-type: none;
 }
 
-.navigation a {
+.navigation-link {
     text-decoration: none;
+}
+
+.navigation-link-active {
+    text-decoration: underline;
 }
 
 .navigation li {
@@ -70,10 +74,6 @@ header {
 .navigation li a {
     font-weight: 600;
     color: #112D4E;
-}
-
-.active {
-    text-decoration: underline !important;
 }
 
 /* introduction text to bookclub and image */
@@ -380,7 +380,7 @@ footer {
         color: #112D4E;
     }
 
-    .text-contact{
+    .text-contact {
         margin: 1%;
     }
 }
@@ -467,7 +467,7 @@ footer {
         color: #112D4E;
     }
 
-    .text-contact{
+    .text-contact {
         margin: 1%;
     }
 }

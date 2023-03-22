@@ -10,7 +10,7 @@ Books&Coffee is a site for book lovers based in Gothenborg, Sweden. This site is
 
 * As a user, I can see the reading list for the whole year in advance and find inspiration even if i do not sign up. 
 
-* As a user,I can sign up for the meetings and find the location fo the meeting place with Google Maps. 
+* As a user, I can sign up for the meetings and find the location fo the meeting place with Google Maps. 
 
 ## **Features** ##
 
@@ -138,7 +138,7 @@ Contact
     - On the left side in the Settings klick on the pages tab.
     - Go to bulid and deployment and choose source: Deploy from branch.
     - Under branch choose main for branch and root for folder. 
-    - When you press on the save button, your site is being deployed.
+    - When you press on the save button, the site is being deployed.
 
 The live link can be found here:<a href="https://jasminabihel.github.io/books-and-coffee/index.html.">Books&Coffee</a>
 
