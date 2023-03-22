@@ -2,7 +2,16 @@
 
 Books&Coffee is a site for booklovers based in Gothenborg, Sweden. This site is directed to booklovers that want to meet in person and enjoy a cup of coffee and cake. Books&Coffee site has times for weekly meetings to booklovers and a sign up sheet that makes it easier for booklovers to find likeminded individuals.
 
-![alttext](assets/images/amiresonsive.png)
+![alttext](doc/img/amiresonsive.png)
+
+## **User stories** ##
+
+* As a user, I can go to meetings and connect with people offline to diskuss books.
+
+* As a user, I can see the reading list for the whole year in advance and find inspiration even if i do not sign up. 
+
+* As a user,I can sign up for the meetings and find the location fo the meeting place with Google Maps. 
+
 
 ## **Features** ##
 
