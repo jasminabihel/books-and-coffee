@@ -26,7 +26,7 @@ header {
     width: 100%;
 }
 
-#title {
+.title {
     padding: 4px 2px 2px 2px;
     text-transform: capitalize;
     text-align: left;
@@ -34,12 +34,12 @@ header {
     color: #112D4E;
 }
 
-#title-text {
+.title-text {
     font-size: 80%;
     display: inline-block;
 }
 
-#title-intro {
+.title-intro {
     font-size: 80%;
     margin-left: auto;
 }
