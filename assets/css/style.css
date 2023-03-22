@@ -76,7 +76,6 @@ header {
     color: #112D4E;
 }
 
-/* introduction text to bookclub and image */
 .about {
     margin: 0 1rem;
     padding: 1px;
@@ -91,7 +90,7 @@ header {
     display: flex;
 }
 
-#bookclub {
+.bookclub {
     text-align: center;
     position: absolute;
     margin-left: 50px;
@@ -110,7 +109,6 @@ header {
     height: 80%;
 }
 
-/* Testimonials section in first page */
 .testimonials {
     text-align: center;
 }
@@ -121,6 +119,7 @@ header {
     margin: 1rem;
 }
 
+/* the card has CSS code that was taken from W3 schools */
 .card {
     box-shadow: -1px -1px 10px 4px #464646;
     transition: 0.3s;
@@ -169,7 +168,8 @@ footer {
     color: #112D4E;
 }
 
-/* reading list page styling */
+/* Here begins styling for the second page */
+
 .read {
     text-align: center;
     margin: 10px;
@@ -218,7 +218,6 @@ footer {
     text-decoration: underline;
 }
 
-/*Contact */
 .signup {
     text-align: center;
     font-size: 120%;
@@ -242,7 +241,7 @@ footer {
     margin-bottom: 20px;
 }
 
-#submit {
+.input-submit {
     padding: 3px 5px 4px 5px;
     font-size: 90%;
     text-transform: uppercase;
@@ -266,7 +265,7 @@ footer {
     text-align: left;
 }
 
-#map {
+.map {
     border: solid 3px #FFFFFF;
     margin-left: auto;
     width: 50%;
@@ -278,6 +277,7 @@ footer {
     font-weight: 600;
     color: #0F0F0D;
 }
+
 /*styling for header in confirmation.html*/
 .response {
     font-size: 100%;
@@ -293,8 +293,13 @@ footer {
         display: block;
     }
 
-    #title-text {
-        font-style: italic;
+    .title {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .title-text {
+        display: none;
     }
 
     .bookclub-text {
@@ -302,7 +307,7 @@ footer {
         margin: 3%;
     }
 
-    #bookclub {
+    .bookclub {
         text-align: center;
         position: relative;
         margin-left: 0;
@@ -316,11 +321,6 @@ footer {
     .intro img {
         width: 100%;
         height: 100%;
-    }
-
-    #title {
-        text-align: center;
-        margin-top: 0;
     }
 
     .container {
@@ -345,7 +345,7 @@ footer {
         display: block;
     }
 
-    #map {
+    .map {
         margin: auto;
         width: 100%;
     }
@@ -383,7 +383,12 @@ footer {
         display: block;
     }
 
-    #title-text {
+    .title {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .title-text {
         display: none;
     }
 
@@ -392,7 +397,7 @@ footer {
         margin: 3%;
     }
 
-    #bookclub {
+    .bookclub {
         text-align: center;
         position: relative;
         margin-left: 0px;
@@ -406,11 +411,6 @@ footer {
     .intro img {
         width: 100%;
         height: 100%;
-    }
-
-    #title {
-        text-align: center;
-        margin-top: 0;
     }
 
     .container {
@@ -436,7 +436,7 @@ footer {
         display: block;
     }
 
-    #map {
+    .map {
         margin: auto;
         width: 100%;
     }
