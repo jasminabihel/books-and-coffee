@@ -25,11 +25,11 @@ Books&Coffee is a site for book lovers based in Gothenborg, Sweden. This site is
  ![alttext](doc/img/header.png)
 
  
- #### **About us** ####
+ #### **About** ####
 
  * The "About" page has a little explanation for the purpose of the book club and testimonials.
  * The "About" page is divided between two sections.
- * The first section contains an illustration of people reading books by Freepik. There is a short    introduction of the book club on the right side of the section for the users to read about the purpose of the book club.
+ * The first section contains an illustration of people reading books by Freepik. There is a short introduction of the book club on the right side of the section for the users to read about the purpose of the book club.
  * The second section contains testimonials from the members of the book club.
  * This section gives users insight to what other members think of the book club. 
 
@@ -143,7 +143,7 @@ Contact
 The live link can be found here:<a href="https://jasminabihel.github.io/books-and-coffee/index.html.">Books&Coffee</a>
 
 ## **Credits** ##
-* The image in the "About us" page was taken from Freepik. 
+* The image in the "About" page was taken from Freepik. 
  <a href="https://www.freepik.com/free-vector/book-club-concept-with-people-read-books_29222683.htm#query=book%20illustration%20with%20people&position=4&from_view=search&track=ais">Image by upklyak</a> on Freepik
 
 * The images in the "reading list" page were taken from Goodreads.
