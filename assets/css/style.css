@@ -278,21 +278,12 @@ footer {
     font-weight: 600;
     color: #0F0F0D;
 }
-
 /*styling for header in confirmation.html*/
 .response {
     font-size: 100%;
     text-align: center;
     font-weight: 600;
     color: #112D4E;
-}
-
-.response header {
-    border-bottom: solid 3px #676785;
-    background-color: #f2eeee;
-    display: flex;
-    align-items: stretch;
-    flex-direction: column;
 }
 
 /* screens width 1200px and smaller */
