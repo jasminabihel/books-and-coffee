@@ -177,7 +177,7 @@ footer {
 
 .read {
     text-align: center;
-    margin: 10px;
+    margin: 10%;
     padding: 1px 10px 20px 5px;
 }
 
@@ -397,6 +397,7 @@ footer {
     }
 
     .title {
+        overflow:hidden;
         margin-top: 0%;
         margin-bottom: 0%;
     }
@@ -416,6 +417,13 @@ footer {
 
     .navigation {
         text-align: left;
+    }
+
+    .sticky {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
     }
 
     .navigation li a {
