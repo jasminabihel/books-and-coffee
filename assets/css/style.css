@@ -44,6 +44,10 @@ header {
 .title i {
     display: none;
 }
+.title-icons {
+    font-weight: 600;
+    color: #112D4E;
+}
 
 .title-text {
     font-size: 80%;
