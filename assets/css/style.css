@@ -16,6 +16,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 
 header {
@@ -313,14 +314,14 @@ footer {
         text-align: center;
     }
 
-    .title-intro-icons {
-        display: none;
-    }
-
     .title-text {
         display: block;
         text-align: center;
         font-style: italic;
+    }
+
+    .navigation {
+        text-align: center;
     }
 
     .bookclub-text {
@@ -353,10 +354,6 @@ footer {
         margin-bottom: 10px;
     }
 
-    .navigation {
-        text-align: center;
-    }
-
     .meeting {
         display: block;
     }
@@ -384,7 +381,7 @@ footer {
     }
 
     .text-contact {
-        margin: 1%;
+        margin: 10px;
     }
 }
 
@@ -427,56 +424,13 @@ footer {
         color: #112D4E;
     }
 
-    .bookclub {
-        text-align: center;
-        position: unset;
-        margin-left: 0px;
-        color: #112D4E;
-    }
-
-    .intro {
-        display: block;
-    }
-
-    .intro img {
-        width: 100%;
-        height: 100%;
-    }
-
     .container {
-        display: block;
         margin-right: 20px;
         margin-left: 20px;
     }
 
-    .card {
-        margin-bottom: 10px;
-    }
-
     .signup h2 {
         margin: 2px;
-    }
-
-    .meeting {
-        display: block;
-    }
-
-    .map {
-        margin: auto;
-        width: 100%;
-    }
-
-    .links h3 {
-        display: none;
-        visibility: hidden;
-        text-align: center;
-        padding: 5px;
-        font-size: 120%;
-        color: #112D4E;
-    }
-
-    .text-contact {
-        margin: 10px;
     }
 }
 
@@ -492,7 +446,7 @@ footer {
     }
 
     .navigation ul {
-        padding-left: 0; 
+        padding-left: 0;
     }
 
     .navigation li {
@@ -500,8 +454,8 @@ footer {
         margin-right: 5px;
     }
 
-
 }
+
 /* JioPhone 2, iphone 4 and Galaxy Fold */
 @media screen and (max-width: 280px) {
 
