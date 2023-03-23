@@ -82,7 +82,7 @@ header {
 }
 
 .about {
-    margin: 0 1rem;
+    margin: 0 15px;
     padding: 1px;
     background-color: #FFFFFF;
 }
@@ -121,7 +121,7 @@ header {
 .container {
     display: flex;
     align-items: center;
-    margin: 1rem;
+    margin: 15px;
 }
 
 /* the card has CSS code that was taken from W3 schools */
