@@ -322,7 +322,7 @@ footer {
 
     .bookclub {
         text-align: center;
-        position: relative;
+        position: unset;
         margin-left: 0;
         color: #112D4E;
     }
@@ -391,7 +391,6 @@ footer {
 
 /* screens width 600px and smaller */
 @media screen and (max-width: 600px) {
-
     header {
         display: flex;
     }
@@ -419,7 +418,7 @@ footer {
     }
 
     .sticky {
-        position: fixed;
+        position:sticky;
         top: 0;
         width: 100%;
     }
@@ -436,7 +435,7 @@ footer {
 
     .bookclub {
         text-align: center;
-        position: relative;
+        position: unset;
         margin-left: 0px;
         color: #112D4E;
     }
@@ -507,7 +506,7 @@ footer {
     .navigation {
         display: block;
         margin-right: 0;
-        font-size: 80%;
+        font-size: 90%;
     }
 
     .navigation ul {
