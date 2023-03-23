@@ -11,7 +11,7 @@ body {
     font-size: medium;
     background-color: #FFFFFF;
     color: #112D4E;
-    margin: 0px;
+    margin: 0;
     min-height: 100%;
     width: 100%;
     display: flex;
@@ -30,7 +30,7 @@ header {
     padding: 4px 2px 2px 2px;
     text-transform: capitalize;
     text-align: left;
-    margin-left: 2%;
+    margin-left: 20px;
     color: #112D4E;
 }
 
@@ -54,7 +54,7 @@ header {
     font-weight: 600;
     margin-left: auto;
     text-transform: uppercase;
-    margin-right: 1rem;
+    margin-right: 10px;
 }
 
 .navigation ul {
