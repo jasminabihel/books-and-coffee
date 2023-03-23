@@ -1,6 +1,6 @@
 # *Books & Coffee: The Perfect Blend for Book Lovers!*
 
-Books&Coffee is a site for book lovers based in Gothenborg, Sweden. This site is directed to book lovers that want to meet in person and enjoy a cup of coffee and cake. Books&Coffee site has times for weekly meetings and a sign up sheet that makes it easier for book lovers to find likeminded individuals.
+Books&Coffee is a site for book lovers based in Gothenburg, Sweden. This site is directed to book lovers that want to meet in person and enjoy a cup of coffee and cake. Books&Coffee site has times for weekly meetings and a sign up sheet that makes it easier for book lovers to find like-minded individuals.
 
 ![alttext](doc/img/amiresonsive.png)
 
@@ -47,7 +47,7 @@ Books&Coffee is a site for book lovers based in Gothenborg, Sweden. This site is
 
  #### **Contact** ####
 
- * Here we have the "Sign up" form to join the club. Under the form are times and places for the meeetings.
+ * Here we have the "Sign up" form to join the club. Under the form are times and places for the meetings.
  * There is a map that shows the address for the meeting place that users can interact with and open in a new tab to easier find the meeting place. 
  * When users sign up they get a confirmation message "Thank you for signing up!". 
 
@@ -65,7 +65,7 @@ Books&Coffee is a site for book lovers based in Gothenborg, Sweden. This site is
  
  ### *Future features* ###
  * The reading list page should be rewritten to allow members to choose books every month. It would make for more engaging experience for the user if they can chose the book from a list.
- * Insert a new page where members can sign in and get special updates only for the community.
+ * Implement a new page dedicated to book club members. The page will give users the option to sign in and get special updates only for the community.
 
 
  ## **Typography** ##
@@ -73,6 +73,7 @@ Books&Coffee is a site for book lovers based in Gothenborg, Sweden. This site is
 
  
  ## **Technology** ##
+ * The idea for the web page was made using Balsamiq Wireframes.
  * The web page was constructed using VS code and Gitpod which is a cloud based development environment.
  * The web page was written using HTML and CSS. 
  * The web page uses icons from FontAwesome.
@@ -80,14 +81,16 @@ Books&Coffee is a site for book lovers based in Gothenborg, Sweden. This site is
 
  ## **Wireframes** ##
 
- This is the intial idea for the web page.
+ This is the initial idea for the web page.
 
 ![Alt text](doc/img/bookclub-project-books-coffee.png)
 
 
 ## **Testing** ##
 
-The page was tested in following browsers: Edge, Chrome, Safari, Firefox. 
+* The page was tested in following browsers: Edge, Chrome, Safari, Firefox.
+* The web page is responsive and works as expected in above mentioned browsers. 
+* The web page is responsive for different viewpoints: desktop, laptop, tablet and mobile.
 
 ### *Code Validation* ####
 
@@ -120,23 +123,21 @@ Contact
 
 ### *Fixed bugs* ###
 
-*  When the webpage was deployed in GitHub several images had broken links. This was because the images were deployed to the images folder in format jifi that is not supported by the browser. This was corrected by uploading the images again with the correct format jpg.
+*  When the web page was deployed in GitHub several images had broken links. This was because the images were deployed to the images folder in format jifi that is not supported by the browser. This was corrected by uploading the images again with the correct format jpg.
 
 * Several images had capital letters when deployed. This was fixed.
 
 * Input [type=text], input [type=email] and input[type=submit] was used in CSS to style the sign up    form. This is not recommended and the CSS style for the sign up form is corrected by using class for the styling.
 
 ### **Supported screens** ###
-
-* The web page is responsive and works as espected in Edge, Chrome, Firefox and Safari. 
-* The web page is responsive for diffrent viewpoints: desktop, laptop, tablet and mobile.
+Here are few examples for supported screens: iPhone 4, iPhone 6/7/8, Galaxy Z3 Flip, Pixel 4/5, Pixel 10, Nest Hub, Lenovo Idea Pad 5 Pro.
 
 ## **Deployment** ##
 
-* The web page was deployed to GitHub pages using the folowing steps:
+* The web page was deployed to GitHub pages using the following steps:
     - Go to the GitHub repository and navigate to Settings.
-    - On the left side in the Settings klick on the pages tab.
-    - Go to bulid and deployment and choose source: Deploy from branch.
+    - On the left side in the Settings click on the pages tab.
+    - Go to build and deployment and choose source: Deploy from branch.
     - Under branch choose main for branch and root for folder. 
     - When you press on the save button, the site is being deployed.
 
