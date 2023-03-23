@@ -150,7 +150,9 @@ The live link can be found here:<a href="https://jasminabihel.github.io/books-an
 
 * The code for the "social media links" in HTML in the footer was taken from CI "Love Running project".
 
-* The styling in CSS for the testimonials cards comes from W3 schools cards <a href="https://www.w3schools.com/w3css/w3css_cards.asp">w3 schools cards</a>
+* The code in HTML for cards comes from W3schools cards <a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_cards">W3schools cards container HTML</a>
+
+* The styling in CSS for the testimonials cards comes from W3 schools cards <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_cards>w3 schools cards">W3schools cards CSS</a>
 
 * The code for the map in HTML was obtained via Google Maps feature "embed a map".
 
