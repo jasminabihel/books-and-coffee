@@ -35,16 +35,13 @@ header {
     color: #112D4E;
 }
 
-
 .title-intro {
     font-size: 80%;
     margin-left: auto;
 }
 
-.title i {
-    display: none;
-}
 .title-icons {
+    display: none;
     font-weight: 600;
     color: #112D4E;
 }
@@ -401,8 +398,9 @@ footer {
         margin-bottom: 0;
     }
 
-    .title i {
-        display: inline-block;
+    .title-icons {
+        font-size: 60%;
+        display: flex;
     }
 
     .title-intro {
@@ -464,10 +462,12 @@ footer {
 /* ex. JioPhone 2, Galaxy Fold */
 @media screen and (max-width: 300px) {
 
+    .title {
+        margin-left: 4px;
+    }
+
     .navigation li {
         margin-left: 7px;
         font-size: 70%;
     }
-
-
 }
