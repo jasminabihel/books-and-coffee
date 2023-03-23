@@ -40,7 +40,7 @@ header {
     margin-left: auto;
 }
 
-.title-intro-icons {
+.title i {
     display: none;
 }
 
@@ -400,9 +400,8 @@ footer {
         margin-bottom: 0%;
     }
 
-    .title-intro-icons {
+    .title i {
         display: inline-block;
-        text-align: center;
     }
 
     .title-intro {
