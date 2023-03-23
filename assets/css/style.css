@@ -385,6 +385,7 @@ footer {
     }
 }
 
+/* ex. Blackberry Playbook, Microsoft Lumia 550, Nexus 7 */
 @media screen and (max-width: 700px) {
     header {
         display: flex;
@@ -456,13 +457,8 @@ footer {
 
 }
 
-/* JioPhone 2, iphone 4 and Galaxy Fold */
-@media screen and (max-width: 320px) {
-
-    body {
-
-        font-size: 80%;
-    }
+/* ex. JioPhone 2, Galaxy Fold */
+@media screen and (max-width: 300px) {
 
     .navigation li {
         margin-left: 7px;
