@@ -34,14 +34,19 @@ header {
     color: #112D4E;
 }
 
-.title-text {
-    font-size: 80%;
-    display: inline-block;
-}
 
 .title-intro {
     font-size: 80%;
     margin-left: auto;
+}
+
+.title-intro-icons {
+    display: none;
+}
+
+.title-text {
+    font-size: 80%;
+    display: inline-block;
 }
 
 .navigation {
@@ -224,7 +229,6 @@ footer {
     color: #DBE2EF;
     background-color: #4a79b2;
     padding: 1%;
-    overflow-wrap: break-word;
 }
 
 .signup h2 {
@@ -294,12 +298,21 @@ footer {
     }
 
     .title {
+        margin-top: 1%;
+    }
+
+    .title-intro {
+        display: block;
         text-align: center;
-        margin-top: 0;
+    }
+
+    .title-intro-icons {
+        display: none;
     }
 
     .title-text {
-        display: none;
+        display: block;
+        text-align: center;
     }
 
     .bookclub-text {
@@ -380,16 +393,34 @@ footer {
 @media screen and (max-width: 600px) {
 
     header {
-        display: block;
+        display: flex;
     }
 
     .title {
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .title-intro-icons {
+        display: inline-block;
         text-align: center;
-        margin-top: 0;
+    }
+
+    .title-intro {
+        display: none;
     }
 
     .title-text {
         display: none;
+    }
+
+    .navigation {
+        text-align: center;
+    }
+
+    .navigation li a {
+        font-weight: 700;
+        color: #112D4E;
     }
 
     .bookclub-text {
@@ -428,10 +459,6 @@ footer {
         padding-left: 8px;
     }
 
-    .navigation {
-        text-align: center;
-    }
-
     .meeting {
         display: block;
     }
@@ -464,8 +491,17 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
+
+    .title-intro-icons {
+        display: flex;
+        margin-top: 1%;
+        text-align: center;
+    }
+
     .navigation {
+        display: block;
         margin-right: 0;
+        font-size: 80%;
     }
 
     .navigation ul {
